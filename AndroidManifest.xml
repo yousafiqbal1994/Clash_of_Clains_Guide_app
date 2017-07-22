@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyuguideclash.cocgems">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.hyuguideclash.cocgems.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CategoriesList"
+            android:label="@string/list">
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:label="@string/about">
+        </activity>
+        <activity android:name=".HowToPlayActivity"
+            android:label="@string/howtoplay">
+        </activity>
+        <activity android:name=".MoreCoolAppsActivity"
+            android:label="@string/morecoolapps">
+        </activity>
+        <activity android:name=".NewsActivity"
+            android:label="@string/news">
+        </activity>
+        <activity android:name=".StratergiesActivity"
+            android:label="@string/strategies">
+        </activity>
+        <activity android:name=".TipsActivity"
+            android:label="@string/tips">
+        </activity>
+
+        <!-- Required activities for playback of Vungle video Ads -->
+
+        <activity android:name="com.vungle.publisher.VideoFullScreenAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+
+        <activity android:name="com.vungle.publisher.MraidFullScreenAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+
+        <!-- Declare Revmob Fullscreen activity if you want to use Fullscreen, Video and/or Rewarded Video ads -->
+        <activity android:name="com.revmob.FullscreenActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+
+    </application>
+
+</manifest>

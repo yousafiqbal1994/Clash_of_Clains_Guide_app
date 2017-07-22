@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:background="#505c70"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/splash"
+        android:background="@drawable/icon" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_start"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        fancy:fb_defaultColor="#247a3e"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        fancy:fb_radius="5dp"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_iconPosition="left"
+        android:padding="12dp"
+        fancy:fb_text="Let's Start"
+        fancy:fb_textColor="#FFFFFF" />
+
+</LinearLayout>

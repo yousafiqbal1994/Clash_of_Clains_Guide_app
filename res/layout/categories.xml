@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/about"
+            fancy:fb_radius="5dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="About"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/tips"
+            android:layout_width="160dp"
+            fancy:fb_radius="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="Tips"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/news"
+            android:layout_width="160dp"
+            fancy:fb_radius="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="News"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/strategies"
+            android:layout_width="160dp"
+            fancy:fb_radius="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="Strategies"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/howtoplay"
+            android:layout_width="160dp"
+            fancy:fb_radius="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="How to play"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/morecoolapps"
+            android:layout_width="160dp"
+            fancy:fb_radius="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            fancy:fb_defaultColor="#247a3e"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_text="More cool apps"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            fancy:fb_textColor="#FFFFFF" />
+
+    </LinearLayout>
+
